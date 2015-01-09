@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+
+/****************************************/
+/**    CSS BELOW IS FOR ALL PAGES      **/
+
+/***** Page Background *****/
+body {
+	background-image: url('assets/img/landscape.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+/***** Container *****/
+@media (min-width: 992px) {
+	.container {
+		max-width: 840px;
+	}
+}
+
+/***** Header *****/
+
+.hello {
+	text-align: right;	
+	padding-top: 6px;
+}
+
+.social-media {
+	padding-right: 12px;
+}
+
+.social-media img, .btn-header-wrapper {
+	margin-bottom: 6px;
+}
+
+.icon-left {
+	/* no style needed */
+}
+
+.icon-mid {
+	padding-left: 6px;
+}
+
+/***** Navbar *****/
+.navbar-inverse {
+	background-color: #1E1E1E;
+	border: none;
+	border-radius: 0px;	
+	margin: 0px;
+}
+
+.ribbon {
+	height: 12px;
+	background-color: #A41034;
+}
+
+.navbar-brand img {
+	padding-left: 15px;
+}
+
+/***** Logo *****/
+.logo-img {
+	height: 40px;
+}
+
+.navbar-brand {
+	height: 46px;
+	line-height: 46px;
+	padding: 0px;	
+}
+
+.navbar-right {
+	padding-top: 0px;
+}
+
+@media (min-width: 992px) {
+	.logo-img {
+		height: 54px;
+	}
+	.navbar-brand {
+		height: 60px;
+		line-height: 60px;
+		padding: 0px;	
+	}
+	.navbar-right {
+		padding-top: 10px;
+	}
+}
+
+/***** Article *****/
+.article {
+	background-color: #FFFFFF;
+	padding-top: 20px;
+}
+
+/***** Footer *****/
+.footer {
+	background-color: #1E1E1E;
+	padding: 30px 0px 0px 0px;
+}
+
+.footer ul {
+    padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	list-style-type: none;
+}
+
+.btn-footer-wrapper {
+	padding: 6px 0px;
+}
+
+.btn-footer {
+	font-weight: 700;
+	color: #000000;
+	margin-bottom:4px;
+	white-space: normal;"
+}
+
+.footer hr {
+    color: #BAC5C6;
+	margin: 18px 0px 18px 0px;
+}
+
+.powered-by {
+	text-align: center;
+	font-size: 10px;
+}
+
+.copyright {
+	padding-top: 8px;
+	margin-top: 0px;
+}
+
+/***** Text ******/
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.hello, .footer-content {
+	color: #BAC5C6;
+}
+
+.article-top {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.article-top,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	/* margin-top: 0; */
+	font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	color: #1E1E1E;
+}
+
+.subhead {
+	display: none;
+}
+
+/***** Links *****/
+.navbar-inverse .navbar-nav > li > a {
+    color: #BAC5C6;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.normaltext a:link,
+.normaltext a:visited {
+	color: #306DA7;
+	text-decoration: underline;
+}
+
+.normaltext a:hover,
+.normaltext a:focus,
+.normaltext a:active {
+	color: #213153;
+	text-decoration: underline;
+}
+
+.footer-content a:link,
+.footer-content a:visited {
+	color: #BAC5C6;
+	text-decoration: none;
+}
+
+.footer-content a:hover,
+.footer-content a:focus,
+.footer-content a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.emailaddress {
+	word-wrap: break-word;
+}
+
