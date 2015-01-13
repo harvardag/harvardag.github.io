@@ -29,12 +29,12 @@
 						<!-- BEGIN HELLO BLOCK -->
 						<div class="hello">
 							<span class="social-media">
-								<span class="icon-left"><a href="#"><img src="assets/img/rss.png" height="18px"></a></span>
-								<span class="icon-mid"><a href="#"><img src="assets/img/rss.png" height="18px"></a></span>
-								<span class="icon-mid"><a href="#"><img src="assets/img/rss.png" height="18px"></a></span>
+								<span class="icon-left"><a href="#" title="SoundCloud"><img src="assets/img/soundcloud.png" class="soundcloud" height="18px"></a></span>
+								<span class="icon-mid"><a href="#" title="LinkedIn"><img src="assets/img/linkedin.png" class="linkedin" height="18px"></a></span>
+								<span class="icon-mid"><a href="#" title="RSS"><img src="assets/img/rss.png" class="rss" height="18px"></a></span>
 							</span>
 							<div class="btn-group btn-group-xs btn-header-wrapper" role="group" aria-label="...">
-								<a href="#" class="btn btn-success btn-header" role="button">Become a Member</a>
+								<a href="#" class="btn btn-success btn-header" role="button" alt="">Become a Member</a>
 							</div>
 							<div class="btn-group btn-group-xs btn-header-wrapper" role="group" aria-label="...">
 								<a href="#" class="btn btn-success btn-header" role="button">Sign In</a>
@@ -86,10 +86,6 @@
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Recent News</a></li>
-								<li><a href="#">Alumni Snapshots</a></li>
-							</ul>
 						</li>					
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Membership</a>
@@ -150,55 +146,25 @@
 		<!-- BEGIN FOOTER -->
 		<div class="ribbon"></div>
 		<div class="footer">		
-			<div class="container">
+			<div class="container">		
 				<div class="row">
-					<div class="col-xs-6 col-sm-3 footer-content small">
-						<strong>Contact Us:</strong><br />
+					<div class="col-sm-4 footer-content small">
+						<strong>Contact Us</strong><br />
 						Harvard Alumni for Agriculture<br />
-						<a class="emailaddress" href="mailto:alumni@harvardagriculture.org" title="contact us">alumni@harvardagriculture.org</a><br /><br />
-						
-						c/o Harvard Alumni Association<br />
-						124 Mount Auburn Street<br />
-						Cambridge, MA 02138<br />
-						United States<br /><br />
+						<a class="emailaddress" href="mailto:alumni@harvardagriculture.org" title="contact us">alumni@harvardagriculture.org</a><br />
+						<a href="">RSS</a> | <a href="">Social Media</a>
 					</div>
-					<div class="col-xs-6 col-sm-4 col-sm-push-5 small">
+					<div class="col-sm-4 small join">
 						<strong class="footer-content">Sign up now:</strong><br />									
 						<div>
-							<div class="btn-group btn-group-justified btn-group-sm btn-footer-wrapper" role="group" aria-label=""  style="text-overflow:ellipsis">
-								<a href="#" class="btn btn-default btn-footer" role="button">Subscribe to our Newsletter</a>
-							</div>
 							<div class="btn-group btn-group-justified btn-group-sm btn-footer-wrapper" role="group" aria-label="">
-								<a href="#" class="btn btn-default btn-footer" role="button">Access the Alumni Directory</a>
-							</div>
-							<div class="btn-group btn-group-justified btn-group-sm btn-footer-wrapper" role="group" aria-label="">
-								<a href="#" class="btn btn-default btn-footer" role="button">Join our Discussion ListServ</a>
-							</div>									
+								<a href="#" class="btn btn-default btn-footer" role="button">Join Harvard Alumni for Agriculture</a>
+							</div>								
 						</div>
-					</div>		
-					<div class="clearfix visible-xs"></div>					
-					<div class="col-xs-12 col-sm-2 col-sm-pull-4 footer-content small">																	
-						<strong>About</strong><br />
-						<ul>
-							<li><a href="#">Leadership Team</a></li>
-							<li><a href="#">Our Goals</a></li>
-							<li><a href="#">FAQ</a></li>
-						</ul><br />
-						<strong>Legal</strong><br />
-						<ul>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms of Service</a></li>
-						</ul><br />
 					</div>
-					<div class="col-xs-12 col-sm-3 col-sm-pull-4 footer-content small">
-						<strong>Membership</strong><br />
-						<ul>
-							<li><a href="#">Ways to Get Involved</a></li>
-							<li><a href="#">Mentorship Program</a></li>
-							<li><a href="#">Become a Member</a></li>														
-						</ul><br />
-						<a href="http://alumni.harvard.edu"><img src="assets/img/harvardalumnilogo.png" width="115px"></a>
-						<br />
+					<div class="col-sm-4 footer-content small legal">
+						<strong>Legal</strong><br />
+						Copyright © 2015 Harvard Alumni for Agriculture. All Rights Reserved.<br />Privacy and Terms.
 					</div>
 				</div>
 				<div class="row">
@@ -206,26 +172,34 @@
 						<hr />
 					</div>
 				</div>
+				
 				<div class="row">
-					<div class="hidden-xs col-sm-3"></div>
-					<div class="col-xs-12 col-sm-3 footer-content powered-by">
-						<p class="copyright">Copyright © 2015 Harvard Alumni for Agriculture. All Rights Reserved.</p>
-					</div>
-					<div class="col-xs-12 col-sm-3 footer-content powered-by">
-						<a href="http://www.AlumniMagnet.com" title="AlumniMagnet" >
-							<img src="assets/img/powered_by_alumnimagnet_2.png" id="bobtopcap" height="24px" border="0" class="shakoof">
-							<br />
-							<p>Alumni Development Software</p>
-						</a>												
-					</div>
-					<div class="hidden-xs col-sm-3"></div>
+					<div class="col-xs-3"></div>
+					<div class="col-xs-6">								
+						<div class="row">
+							<div class="col-xs-1"></div>
+							<div class="col-xs-4">
+								<img class="alumni" src="assets/img/harvardalumnilogo.png" width="115px">
+							</div>
+							<div class="col-xs-6 powered-by footer-content">
+								<a href="http://www.AlumniMagnet.com" title="AlumniMagnet" >
+									<img src="assets/img/powered_by_alumnimagnet_2.png" id="bobtopcap" height="24px" border="0" class="shakoof">
+									<br />
+									<p>Alumni Development Software</p>
+								</a>			
+							</div>
+							<div class="col-xs-1"></div>
+						</div>								
+					<div class="col-xs-3"></div>							
 				</div>
 			</div>
 		</div>
+		<!-- END FOOTER -->
 		
 		<!-- Bootstrap core JavaScript -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="assets/js/jquery.js"></script>
 		<script src="dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/harvardag.js"></script>
 	</body>
 </html>

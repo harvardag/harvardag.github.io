@@ -108,6 +108,7 @@ body {
 
 .btn-footer-wrapper {
 	padding: 6px 0px;
+	text-overflow:ellipsis;
 }
 
 .btn-footer {
@@ -122,14 +123,26 @@ body {
 	margin: 18px 0px 18px 0px;
 }
 
+.join {
+	text-align: center;
+}
+
+.legal {
+	text-align: right;
+}
+
 .powered-by {
 	text-align: center;
 	font-size: 10px;
 }
 
 .copyright {
-	padding-top: 8px;
+	padding-top: 9px;
 	margin-top: 0px;
+}
+
+.alumni {
+	padding-top: 3px;
 }
 
 /***** Text ******/
