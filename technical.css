@@ -1,0 +1,17 @@
+pre {
+    overflow-x: auto;
+	tab-size: 1;
+}
+pre code {
+	word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+.bold {
+	background-color: yellow;
+	font-weight: bold;}
+
+.green {
+	color: #449d44;
+}
