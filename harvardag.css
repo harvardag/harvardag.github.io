@@ -1,11 +1,15 @@
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic);
-*/
+
 /****************************************/
 /**    CSS BELOW IS FOR ALL PAGES      **/
 
 /***** Page Background *****/
 body {
+	background-color: #1E1E1E;
+}
+.landscape {
+	background-color: #DBFEEC;
 	background-image: url('assets/img/landscape.jpg');
 	background-repeat: repeat-x;
 	background-position: center top;
@@ -16,6 +20,27 @@ body {
 	.container {
 		max-width: 840px;
 	}
+}
+
+/***** Alignment *****/
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.shrink {
+	display: inline-block;
 }
 
 /***** Header *****/
@@ -91,6 +116,11 @@ body {
 .article {
 	background-color: #FFFFFF;
 	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.portal-sidebar {
+	background-color: #E2E2E2;
 }
 
 /***** Footer *****/
@@ -111,7 +141,14 @@ body {
 	text-overflow:ellipsis;
 }
 
-.btn-footer {
+.btn-footer:link, .btn-footer:visited {
+	font-weight: 700;
+	color: #1E1E1E;
+	margin-bottom:4px;
+	white-space: normal;"
+}
+
+.btn-footer:hover, .btn-footer:focus, .btn-footer:active {
 	font-weight: 700;
 	color: #000000;
 	margin-bottom:4px;
@@ -123,12 +160,40 @@ body {
 	margin: 18px 0px 18px 0px;
 }
 
-.join {
+.contact {
 	text-align: center;
 }
 
+.join {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
 .legal {
-	text-align: right;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+
+	.join {
+		margin-bottom: 0px;
+	}
+	
+	.legal {
+		text-align: right;
+	}	
+	.contact {
+		text-align: left;
+	}
+	
+}
+.legal-contents {
+	display:inline-block;
+	max-width:220px;
+}
+
+.haa {
+	margin-top: 5px;
 }
 
 .powered-by {
@@ -136,13 +201,38 @@ body {
 	font-size: 10px;
 }
 
-.copyright {
-	padding-top: 9px;
-	margin-top: 0px;
+.haa-wrapper {
+	margin-right: 0px;	
+	margin-bottom: 15px;
+	float: none;
 }
 
-.alumni {
-	padding-top: 3px;
+.alumnimagnet-wrapper {
+	margin-left: 0px;	
+}
+
+.footer-hidden {
+	display: block;
+	clear: both;
+}
+
+@media (min-width: 370px) {
+	
+	.footer-hidden {
+		display: none;
+		clear: none;
+	}
+	
+	.haa-wrapper {
+		margin-right: 15px;
+		margin-bottom: 0px;
+		float: left;		
+	}
+	
+	.alumnimagnet-wrapper {
+		margin-left: 15px;
+	}
+
 }
 
 /***** Text ******/
@@ -170,6 +260,7 @@ h6, .h6 {
 	font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
 	color: #1E1E1E;
+	font-size: 30px;
 }
 
 .subhead {
