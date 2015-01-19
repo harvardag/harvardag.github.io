@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+		<meta name="description" content="The Harvard Ag SIG is a growing network of prominent investors, thought leaders, researchers, policymakers, and other professionals representing a diversity of perspectives and experiences within the agriculture, sustainable food, bioenergy, and the global commodities space. Through in person events, mentorship, webinars, and an online directory, we aim to strengthen the power of Harvard alums to make a difference in agriculture both locally and internationally, by bringing them together in conversation and action.">
+		<meta name="author" content="Harvard Alumni for Agriculture SIG">
+		<meta name="keywords" content="Harvard, alumni, agriculture, investing, bioenergy, sustainability, farming, ranching, food production, commodities, food system innovation">
+		<link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="assets/ico/favicon.ico" type="image/x-icon">		
+		
+		<title>Harvard Alumni for Agriculture</title>
+
+		<link href="dist/css/bootstrap-no-tables.css" rel="stylesheet">
+		<link href="assets/css/harvardag.css" rel="stylesheet">
+		<link href="assets/css/responsive.css" rel="stylesheet">
+		<link href="assets/lightbox/jquery.lightbox.min.css" rel="stylesheet">		
+		
+		<!-- IE8 SUPPORT OF HTML5 ELEMENTS AND MEDIA QUERIES -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
+<!-- ---------------------------------------------------------- -->			
+		<!-- ADDITIONAL CSS AND JS ITEMS FOR THE ADMIN PAGES GO HERE -->
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->		
+	</head>
+	<body>
+		<!-- BEGIN LANDSCAPE -->
+		<div class="landscape">
+			<!-- BEGIN MASTHEAD -->
+			<nav class="navbar navbar-inverse">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<!-- BEGIN HELLO BLOCK -->
+							<div class="hello">
+								<span class="social-media">
+									<span class="icon-left"><a href="https://soundcloud.com/harvardag" title="SoundCloud"><img src="assets/img/soundcloud.png" height="18px" class="soundcloud" id="soundcloud" alt="SoundCloud" ></a></span>
+									<span class="icon-mid"><a href="https://www.linkedin.com/groups/Harvard-Alumni-Agriculture-6779896" title="LinkedIn"><img src="assets/img/linkedin.png" height="18px" class="linkedin" id="linkedin" alt="LinkedIn"></a></span>
+									<span class="icon-mid"><a href="http://feeds.rapidfeeds.com/77614" title="RSS"><img src="assets/img/rss.png" height="18px" class="rss" id="rss" alt="RSS"></a></span>
+								</span>
+
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
+<!-- ---------------------------------------------------------- -->	
+								<div class="btn-group btn-group-xs btn-header-wrapper" role="group" aria-label="">
+									<a href="<!-- ALUMNIMAGNET: put link here -->" class="btn btn-success btn-header" role="button">
+										<!-- ALUMNIMAGNET: enter text below -->
+										Become a Member <!-- OR "My Account" -->
+									</a>										
+								</div>								
+								<div class="btn-group btn-group-xs btn-header-wrapper" role="group" aria-label="">
+									<a href="<!-- ALUMNIMAGNET: put link here -->" class="btn btn-success btn-header" role="button">
+										<!-- ALUMNIMAGNET: enter text below-->
+										Sign In <!-- OR "Sign Out" -->
+									</a>
+								</div>
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->	
+							<!-- END HELLO BLOCK -->
+						</div>
+					</div>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">
+							<img class="logo-img" src="assets/img/logo_light.png" alt="Harvard Alumni for Agriculture">
+						</a>
+					</div>
+					<div id="navbar" class="custom-collapse navbar-custom-collapse">
+						<!-- BEGIN NAVBAR -->
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
+<!-- ---------------------------------------------------------- -->
+
+<!-- Menu follows standard Bootstrap 3 format -->								
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Home</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Leadership Team</a></li>
+									<li><a href="#">Our Goals</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Upcoming Events</a></li>
+									<li><a href="#">Past Events</a></li>
+									<li><a href="#">Annual Events of Note</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News</a>
+							</li>					
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Membership</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Ways to Get Involved</a></li>
+									<li><a href="#">Become a Member</a></li>
+									<li><a href="#">Alumni Directory</a></li>
+								</ul>
+							</li>	
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Webinar Library</a></li>
+									<li><a href="#">Mentorship Program</a></li>
+									<li><a href="#">Harvard Campus</a></li>
+									<li><a href="#">Job Postings</a></li>
+								</ul>
+							</li>
+						</ul>
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->							
+						<!-- END NAVBAR -->
+					</div>
+				</div>
+				<div class="ribbon"></div>
+			</nav>	
+			<!-- END MASTHEAD -->
+			<!-- BEGIN MAIN PAGE CONTAINER -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 article">
+						<noscript>
+							<div class="alert alert-warning" role="alert"><strong>Note to users: </strong>Javascript must be enabled for the home page, events page, news page, and featured alumni and sponsors page to display properly.</div>
+						</noscript>
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->							
+						<div id="magnet-admin">
+							<!-- ALUMNIMAGNET: Put Magnet Admin dropdown here when logged in. -->
+						</div>
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->	
+						<!-- ARTICLE OR PORTAL PAGE CONTENTS GO HERE -->

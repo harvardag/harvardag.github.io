@@ -1,0 +1,90 @@
+						<!-- ARTICLE OR PORTAL PAGE CONTENTS END -->
+					</div>
+				</div>
+			</div>
+			<!-- END MAIN PAGE CONTAINER-->				
+			<!-- BEGIN FOOTER -->
+			<div class="ribbon"></div>
+			<div class="footer">		
+				<div class="container">							
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-sm-push-4">
+							<div class="row">
+								<div class="col-xs-3 xs-visible sm-hidden"></div>
+								<div class="col-xs-6 col-sm-12 small join">
+									<strong class="footer-content">Sign up now:</strong><br />									
+									<div>
+										<div class="btn-group btn-group-justified btn-group-sm btn-footer-wrapper" role="group" aria-label="">
+											<a href="http://www.harvardagriculture.org/memsub.html" class="btn btn-default btn-footer" role="button" title="Join Harvard Alumni for Agriculture">Join Harvard Alumni for Agriculture</a>
+										</div>								
+									</div>
+								</div>
+								<div class="col-xs-3 xs-visible sm-hidden"></div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-sm-pull-4 footer-content small contact">
+							<strong>Contact Us</strong><br />
+							Harvard Alumni for Agriculture<br />
+							<a class="emailaddress" href="mailto:alumni@harvardagriculture.org" title="contact us">alumni@harvardagriculture.org</a><br />
+							<a href="http://www.harvardagriculture.org/contact.html#RSS" title="RSS">RSS</a> | <a href="http://www.harvardagriculture.org/contact.html#SocialMedia" title="Social Media">Social Media</a>									
+						</div>
+						<div class="col-xs-6 col-sm-4 footer-content small legal">						
+							<div class="legal-contents">
+								<strong>Legal</strong><br />
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
+<!-- ---------------------------------------------------------- -->								
+								Copyright © <!-- ALUMNIMAGNET: insert year here -->2015 Harvard Alumni for Agriculture. All Rights Reserved.<br />
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->									
+								<a href="http://www.harvardagriculture.org/article.html?aid=7" title="Privacy Policy and Terms of Service">Privacy and Terms</a>.
+							</div>
+						</div>
+					</div>			
+					<div class="row">
+						<div class="col-xs-12 footer-content small" style="text-align:center">						
+							<hr />
+						</div>
+					</div>			
+					<div class="row">
+						<div class="col-xs-12 center">
+							<div class="shrink" style="background-color:">
+								<div class="powered-by footer-content shrink haa-wrapper" style="background-color:">
+									<a href="http://www.alumni.harvard.edu" title="Harvard Alumni Association">
+										<img src="assets/img/haalogo.png" class="haa" id="haa" height="35px" alt="Harvard Alumni Association">
+									</a>
+								</div>
+								<div class="footer-hidden"></div>
+								<div class="powered-by footer-content shrink alumnimagnet-wrapper" style="background-color:">
+									<a href="http://www.AlumniMagnet.com" title="Alumni Magnet Alumni Development Software" class="alumnimagnet-link">
+										<img src="assets/img/alumnimagnet.png" class="alumnimagnet" id="haa" height="24px" alt="Powered by AlumniMagnet">
+										<br />
+										<p>Alumni Development Software</p>
+									</a>
+								</div>
+							</div>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END FOOTER -->
+		</div>
+		<!-- END LANDSCAPE -->
+		
+		<!-- CUSTOM CSS -->
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
+<!-- ---------------------------------------------------------- -->	
+		<link href="assets/css/article.css" rel="stylesheet">
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->			
+		<!-- CORE JAVASCRIPT -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
+		<script src="assets/lightbox/jquery.lightbox.min.js"></script>		
+		<script src="assets/js/harvardag.js"></script>
+	</body>
+</html>

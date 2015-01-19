@@ -1,0 +1,25 @@
+/***** Widens the sidebar on events.html *****/
+
+@media (min-width: 768px) {
+	
+
+	.double-center-wrapper {
+		margin-right: 280px;
+	}
+
+	.double-right-wrapper {
+		width: 280px;
+	}
+	
+}
+
+/***** Custom responsive sizes for the main events panel *****/
+@media (min-width: 992px) {
+	.item_sub2_info {
+		width: 503px;
+	}
+}
+
+/***** Remove border from images *****/
+
+

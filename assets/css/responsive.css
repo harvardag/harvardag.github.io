@@ -1,0 +1,381 @@
+
+/***** Responsive page elements *****/
+
+/***** Events *****/
+@media (min-width: 457px) {
+	.item_sub2_info {
+		width: 283px;
+	}
+}
+
+@media (min-width: 992px) {
+	.item_sub2_info {
+		width: 318px;
+	}
+}
+
+/**** Top bar ****/
+.social-media {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	
+	.social-media {
+		display: inline;
+	}
+	
+}
+
+.logo-img {
+	height: 40px;
+}
+
+.navbar-brand {
+	height: 46px;
+	line-height: 46px;
+	padding: 0px;
+}
+
+.navbar-right {
+	padding-top: 0px;
+}
+
+@media (min-width: 992px) {
+	.logo-img {
+		height: 54px;
+	}
+	.navbar-brand {
+		height: 60px;
+		line-height: 60px;
+		padding: 0px;	
+	}
+	.navbar-right {
+		padding-top: 10px;
+	}
+}
+
+/***** Footer *****/
+.join {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.legal {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+
+	.join {
+		margin-bottom: 0px;
+	}
+	
+	.legal {
+		text-align: right;
+	}	
+	.contact {
+		text-align: left;
+	}
+	
+}
+
+.haa-wrapper {
+	margin-right: 0px;	
+	margin-bottom: 15px;
+	float: none;
+}
+
+.alumnimagnet-wrapper {
+	margin-left: 0px;	
+}
+
+.footer-hidden {
+	display: block;
+	clear: both;
+}
+
+@media (min-width: 370px) {
+	
+	.footer-hidden {
+		display: none;
+		clear: none;
+	}
+	
+	.haa-wrapper {
+		margin-right: 15px;
+		margin-bottom: 0px;
+		float: left;		
+	}
+	
+	.alumnimagnet-wrapper {
+		margin-left: 15px;
+	}
+
+}
+
+/***** Portal page *****/
+
+
+
+
+/***** Two column page *****/
+.double-wrapper {
+	position: static;
+	background:;
+}	
+
+.double-center-wrapper {
+	position: static;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.double-right-wrapper {
+	position: static;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.double-wrapper {
+		position: relative;
+	}
+	.double-center-wrapper {
+		margin-right: 225px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.double-right-wrapper {
+		position: absolute;
+		padding-left: 15px;
+		top: 0px;
+		right: 0px;
+		width: 225px;
+	}
+}
+
+/***** Portal Page *****/
+.portal-wrapper {
+	position: static;
+}	
+
+.portal-center-wrapper {
+	position: static;
+	padding: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.portal-right-wrapper {
+	position: static;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+.portal-left-wrapper {
+	position: static;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.portal-wrapper {
+		position: relative;
+	}	
+	.portal-center-wrapper {
+		margin-right: 225px;
+		margin-left: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.portal-right-wrapper {
+		position: absolute;
+		padding-left: 15px;
+		top: 0px;
+		right: 0px;
+		width: 225px;
+	}	
+}
+
+@media (min-width: 992px) {
+	.portal-wrapper {
+		position: relative;
+	}
+	.portal-center-wrapper {
+		margin-right: 225px;
+		margin-left: 225px;
+		padding: 0px 15px;
+	}
+	.portal-right-wrapper {
+		position: absolute;
+		padding-left: 15px;
+		top: 0px;
+		right: 0px;
+		width: 225px;
+	}	
+	.portal-left-wrapper {
+		position: absolute;
+		padding-right: 15px;
+		top: 0px;
+		left: 0px;
+		width: 225px;
+	}		
+
+}
+
+/***** Print Media *****/
+@media print {
+
+	.double-wrapper {
+		position: static;
+		background:;
+	}	
+
+	.double-center-wrapper {
+		position: static;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0px;
+	}
+
+	.double-right-wrapper {
+		position: static;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+		
+	.portal-wrapper {
+		position: static;
+	}	
+
+	.portal-center-wrapper {
+		position: static;
+		padding: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.portal-right-wrapper {
+		position: static;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.portal-left-wrapper {
+		position: static;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+
+}
+
+/***** Custom Navbar *****/
+.custom-collapse {
+  display: none;
+  visibility: hidden;
+}
+.custom-collapse.in {
+  display: block;
+  visibility: visible;
+}
+tr.custom-collapse.in {
+  display: table-row;
+}
+tbody.custom-collapse.in {
+  display: table-row-group;
+}
+
+.navbar-custom-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.navbar-custom-collapse.in {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-custom-collapse.custom-collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    visibility: visible !important;
+  }
+  .navbar-custom-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top .navbar-custom-collapse,
+  .navbar-static-top .navbar-custom-collapse,
+  .navbar-fixed-bottom .navbar-custom-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar-fixed-top .navbar-custom-collapse,
+.navbar-fixed-bottom .navbar-custom-collapse {
+  max-height: 340px;
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+  .navbar-fixed-top .navbar-custom-collapse,
+  .navbar-fixed-bottom .navbar-custom-collapse {
+    max-height: 200px;
+  }
+}
+.container > .navbar-custom-collapse,
+.container-fluid > .navbar-custom-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .container > .navbar-custom-collapse,
+  .container-fluid > .navbar-custom-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.navbar-default .navbar-custom-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+
+.navbar-inverse .navbar-custom-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+
+.navbar-custom-collapse:before,
+.navbar-custom-collapse:after {
+  display: table;
+  content: " ";
+}
+
+.navbar-custom-collapse:after {
+  clear: both;
+}

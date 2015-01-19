@@ -1,0 +1,41 @@
+@import url('static.css');
+
+/* admin pages need be wider than people.html and forum.html */
+.container, .ribbon {
+	min-width: 992px !important;
+}
+
+.rowstyle-alt {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.normaltextbold {
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.normaltextbold a:link,
+.normaltextbold a:visited {
+	color: #255480;
+}
+
+.normaltextbold br  {
+	display: block;
+}
+
+table.normaltext br {
+	display: none;
+}
+
+table.normaltext .normaltext br {
+	display: block
+}
+
+td.normaltextsmall img {
+	margin-top: 10px;
+}
+
+#btnCancel {
+	padding: 0px 300px;
+}

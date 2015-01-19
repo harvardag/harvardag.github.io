@@ -1,0 +1,106 @@
+@import url('static.css');
+
+.subhead {
+	display: block;
+}
+
+/***** Text *****/
+.normaltextbold {
+	font-weight: 400;
+	font-size: 11.9px;
+	padding: 10px;
+}
+
+/***** Links *****/
+.normaltextbold a:link,
+.normaltextbold a:visited {
+	text-decoration: underline;
+	font-weight: 700;
+	color: #255480;
+}
+
+.normaltextsmallshort a:link,
+.normaltextsmallshort a:visited {
+	text-decoration: none;
+	font-weight: 700;
+	color: #255480;
+	font-size: 13px;
+}
+
+.normaltextbold a:hover,
+.normaltextbold a:focus,
+.normaltextbold a:active,
+.normaltextsmallshort a:hover,
+.normaltextsmallshort a:focus,
+.normaltextsmallshort a:active {
+	text-decoration: underline;
+	font-weight: 700;
+	color: #213153;	
+}
+
+/* for inner forum page */
+.normaltextsmallshort,
+form .normaltextshort {
+	padding: 10px;
+	font-weight: 600;
+}
+
+form .normaltextbold {
+	font-weight: 600;
+	font-size: 11.9px;
+}
+
+form .normaltext {
+	font-size: 11.9px;
+}
+
+form #op, #op1, #op2 {
+	margin: 15px 0px;
+	font-size: 11.9px;
+}
+
+.normaltextsmall {
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.article hr {
+	color: #CCC;
+	background-color: #CCC;
+	height: 1px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+}
+
+.article font {
+	line-height: 1.5;
+}
+
+/***** Buttons *****/
+.forum_butt {
+	font-family: 'Open-Sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	color: #FFFFFF;
+	padding: 8px 0px 8px 8px;
+	vertical-align: middle;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.forum_butt a:link,
+.forum_butt a:visited {
+	padding: 5px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration:none;
+	background-color: #5BC0DE;
+	border: #565656 1px solid;
+}
+
+.forum_butt a:hover,
+.forum_butt a:active,
+.forum_butt a:focus {
+	background-color: #31B0D5;
+}

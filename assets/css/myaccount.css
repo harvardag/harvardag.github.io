@@ -1,0 +1,26 @@
+@import url('people.css');
+/* people.css, among other things, imports staticnav and sets container min width */
+
+.normaltextbold {
+	font-weight: 600;
+	line-height: 2;
+}
+
+.normaltextsmall {
+	font-size: 13px;
+}
+
+.article input,
+.article select{
+	margin: 4px 0px;
+}
+
+.chunk .normaltext {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+table  table{
+	background-color: white;
+	border: 0;
+}

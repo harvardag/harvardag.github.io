@@ -1,0 +1,124 @@
+@import url('static.css');
+
+.subhead {
+	display: block;
+	margin-bottom: 20px;
+}
+
+form {
+	font-weight: 600;
+}
+
+form input,
+form select,
+form textarea {
+	margin: 6px 0px;
+	font-weight: 400;
+}
+
+form .normaltextsmall {
+	font-size: 11.9px;
+	display:block;
+}
+
+.normaltext br {
+	display: none;
+}
+
+.input {
+	margin-right: 10px;
+}
+
+form br,
+.chunk br,
+.chunk_divider br,
+.display br,
+.display-head br {
+	display: block;
+}
+
+.normaltextsmall {
+	font-weight: 400;
+	display: block;
+}
+
+
+/***** For displaying a single person *****/
+
+.alum_name {
+	width: 100%;
+}
+
+.chunk_title {
+	font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+	color: #1E1E1E;
+	font-weight: 600;
+}
+.chunk_divider {
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	color: #1E1E1E;
+	font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.chunk {
+    background: white;
+    border: none;
+}
+
+.alum_name {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 15px 5px 0 5px;
+	color: #1E1E1E;
+}
+
+.display_head, .title-head {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 0px 5px 0 5px;
+	color:#1E1E1E;
+}
+
+.display {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding: 0px 5px 0 5px;
+	color: #1E1E1E;
+}
+
+.display a {
+	text-decoration:none;
+}
+
+.title {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding: 0 5px 0 5px;
+	color: #1E1E1E;
+	font-weight: 400;
+}
+
+.title a {
+	text-decoration:none;
+}
+
+.bracket {
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	width: 5px;
+}
+
+.form_elements {
+	margin-left: 5px;
+}
