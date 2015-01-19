@@ -42,12 +42,21 @@
 						<div class="col-xs-12">
 							<!-- BEGIN HELLO BLOCK -->
 							<div class="hello">
+<!-- ---------------------------------------------------------- -->
+<!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
+<!-- ---------------------------------------------------------- -->								
+								<span class="welcome">
+								<!-- ALUMNIMAGNET: enter text below -->			
+									Hello, User
+								</span>
 								<span class="social-media">
 									<span class="icon-left"><a href="https://soundcloud.com/harvardag" title="SoundCloud"><img src="assets/img/soundcloud.png" height="18px" class="soundcloud" id="soundcloud" alt="SoundCloud" ></a></span>
 									<span class="icon-mid"><a href="https://www.linkedin.com/groups/Harvard-Alumni-Agriculture-6779896" title="LinkedIn"><img src="assets/img/linkedin.png" height="18px" class="linkedin" id="linkedin" alt="LinkedIn"></a></span>
 									<span class="icon-mid"><a href="http://feeds.rapidfeeds.com/77614" title="RSS"><img src="assets/img/rss.png" height="18px" class="rss" id="rss" alt="RSS"></a></span>
 								</span>
-
+<!-- ---------------------------------------------------------- -->
+<!-- END ALUMNIMAGNET CODE SNIPPET----------------------------- -->
+<!-- ---------------------------------------------------------- -->	
 <!-- ---------------------------------------------------------- -->
 <!-- BEGIN ALUMNIMAGNET CODE SNIPPET--------------------------- -->
 <!-- ---------------------------------------------------------- -->	
